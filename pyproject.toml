@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "remind_task"
+version = "0.1.0"
+description = ""
+authors = ["atu4403 <73111778+atu4403@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^5.3.1"
+fire = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-watch = "^4.2.0"
+flake8 = "^3.8.4"
+pytest-mock = "^3.3.1"
+pytest-cov = "^2.10.1"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+remindtask = "src.remind_task.remindtask:main"

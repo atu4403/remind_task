@@ -1,0 +1,5 @@
+tasks:
+  - task 1
+  - task 2
+title: remind
+sound: Basso.aiff # /System/Library/Sounds/のファイル名を指定できます
