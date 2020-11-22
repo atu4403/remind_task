@@ -6,7 +6,7 @@ authors = ["atu4403 <73111778+atu4403@users.noreply.github.com>"]
 license = "MIT"
 homepage = "https://github.com/atu4403/remind_task"
 repository = "https://github.com/atu4403/remind_task"
-readme = "README.rst"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
