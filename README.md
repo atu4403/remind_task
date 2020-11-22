@@ -33,7 +33,7 @@ Type: `int`
 
 
 ```shell
-> remindtask run --minute=60 # 60分ごとに通知を繰り返す
+> remindtask run --minute 60 # 60分ごとに通知を繰り返す
 ```
 
 ### edit
@@ -48,7 +48,7 @@ Type: `str`
 
 
 ```shell
-> remindtask edit --app=vim
+> remindtask edit --app vim
 ```
 
 ### init
