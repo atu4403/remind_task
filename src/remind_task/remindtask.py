@@ -5,7 +5,7 @@ import time
 import datetime
 import subprocess
 import fire
-from src import remind_task
+import remind_task
 
 # import remind_task
 

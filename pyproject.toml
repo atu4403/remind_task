@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "remind_task"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["atu4403 <73111778+atu4403@users.noreply.github.com>"]
 license = "MIT"
