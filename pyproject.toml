@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "remind_task"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["atu4403 <73111778+atu4403@users.noreply.github.com>"]
 license = "MIT"
@@ -26,4 +26,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-remindtask = "src.remind_task.remindtask:main"
+remindtask = "remind_task.remindtask:main"
