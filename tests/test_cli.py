@@ -6,8 +6,8 @@ import pytest
 import subprocess
 from pytest_mock import mocker, MockerFixture
 
-from src.remind_task.remindtask import Remindtask
-from src import remind_task
+from remind_task.remindtask import Remindtask
+import remind_task
 
 
 class TestLoop:
@@ -64,9 +64,7 @@ class TestRun:
     def test_not_args(self, mocker):
         cli = Remindtask()
         mocker.patch.object(remind_task, "notification")
-        # mocker.patch("platform.system", return_value="Windows")
         cli.run()
-        # assert excinfo.typename == "NotMacosError"
         remind_task.notification.assert_called_once_with()
 
     def test_minute(self, mocker):
